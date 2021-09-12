@@ -23,7 +23,7 @@ a[href*='www'] {
 a[title*='popular'] {
   font-size: 24px;
 } */
-li {
+ul {
   margin-bottom: 16px;
 }
 a[target='_blank'] {
