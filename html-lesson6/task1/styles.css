@@ -20,7 +20,6 @@ a[href*='www'] {
   color: green;
 }
 
-a[title~='popular'],
-[title~='super-popular'] {
+a[title*='popular'] {
   font-size: 24px;
 }
