@@ -1,11 +1,11 @@
-li {
+/* li {
   margin-bottom: 16px;
 }
 a[target='_blank'] {
   border: 2px solid black;
 }
 
-a[href^='broken'] {
+a[href*='broken'] {
   border: 2px solid red;
 }
 
@@ -20,6 +20,28 @@ a[href*='www'] {
   color: green;
 }
 
+a[title*='popular'] {
+  font-size: 24px;
+} */
+li {
+  margin-bottom: 16px;
+}
+a[target='_blank'] {
+  border: 2px solid black;
+}
+a[href^='broken'] {
+  border: 2px solid red;
+}
+a[href$='.com'] {
+  margin-left: 50px;
+}
+[lang|='en'],
+[lang|='en-'] {
+  font-size: 10px;
+}
+a[href*='www'] {
+  color: green;
+}
 a[title*='popular'] {
   font-size: 24px;
 }
