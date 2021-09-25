@@ -1,0 +1,14 @@
+.rect {
+  background-color: bisque;
+  border-top: 10px solid firebrick;
+  border-right: 20px solid chartreuse;
+  border-left: 20px dashed aqua;
+  border-bottom: 10px dashed burlywood;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 20px;
+  width: 420px;
+  height: 140px;
+}
