@@ -1,5 +1,6 @@
 .rect {
   background-color: bisque;
+  font-size: 24px;
   border-top: 10px solid firebrick;
   border-right: 20px solid chartreuse;
   border-left: 20px dashed aqua;
