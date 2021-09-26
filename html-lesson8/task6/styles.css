@@ -1,0 +1,24 @@
+.rect1 {
+  margin: 50px;
+  padding: 50px;
+  background-color: blue;
+  border: 2px solid black;
+}
+.rect2 {
+  margin: 50px;
+  padding: 50px;
+  background-color: yellow;
+  border: 2px solid black;
+}
+.rect3 {
+  margin: 50px;
+  padding: 50px;
+  background-color: green;
+  border: 2px solid black;
+}
+.rect4 {
+  margin: 50px;
+  padding: 50px;
+  border: 2px solid black;
+  background-color: pink;
+}
