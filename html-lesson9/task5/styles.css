@@ -1,13 +1,15 @@
 .header {
+  position: fixed;
   background-color: darkturquoise;
   height: 40px;
+  width: 100%;
+  display: inline-block;
 }
 
 li {
-  float: left;
   margin: 16px;
   color: white;
-  line-height: 10px;
+  line-height: 5px;
   display: inline;
 }
 .content {
