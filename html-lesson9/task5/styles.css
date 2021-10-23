@@ -11,6 +11,7 @@ nav,
 ul {
   height: 40px;
   line-height: 10px;
+  position: relative;
 }
 .nav-item {
   margin-left: 16px;
