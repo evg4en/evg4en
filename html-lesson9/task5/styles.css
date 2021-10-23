@@ -4,6 +4,7 @@
   height: 40px;
   width: 100%;
   display: inline-block;
+  z-index: 1;
 }
 
 li {
