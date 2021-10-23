@@ -7,12 +7,17 @@
   z-index: 1;
 }
 
+nav {
+  height: 40px;
+}
 li {
-  margin: 16px;
-  color: white;
+  margin-left: 16px;
+
+  display: inline;
   line-height: 5px;
   display: inline;
 }
+
 .content {
   height: 5000px;
   background-color: beige;
