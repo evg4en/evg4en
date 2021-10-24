@@ -7,16 +7,17 @@
   z-index: 1;
 }
 
-nav,
-ul {
+.nav-list {
   margin: 0%;
   height: 40px;
+  line-height: 40px;
 }
 .nav-item {
   margin-left: 16px;
   line-height: 40px;
-  display: inline;
+  list-style: none;
   color: white;
+  float: left;
 }
 
 .content {
@@ -29,8 +30,8 @@ ul {
   width: 200px;
   background-color: aquamarine;
 
-  top: calc(50% - 25px);
-  left: calc(50% - 25px);
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
 }
 .ear_left {
   position: absolute;
