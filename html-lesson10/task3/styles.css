@@ -49,11 +49,13 @@
   height: 40px;
   list-style-type: none;
   padding: 0;
-  margin-left: 16px;
+  margin: 0;
 }
 .h2news {
   text-align: center;
-}
-li {
   margin: 16px 0px 16px 0px;
+}
+.news_item {
+  margin-left: 16px;
+  margin-bottom: 16px;
 }
