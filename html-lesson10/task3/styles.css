@@ -46,7 +46,6 @@
   flex-direction: column;
 }
 .news_list {
-  height: 40px;
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -56,5 +55,6 @@
   margin: 16px 0px 16px 0px;
 }
 .news_item {
+  height: 40px;
   margin-left: 16px;
 }
