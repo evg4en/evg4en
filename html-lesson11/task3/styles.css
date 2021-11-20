@@ -17,7 +17,7 @@
   list-style-type: none;
   background-color: lightcyan;
   box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-  mask-size: 120px;
+  min-width: 120px;
   margin: 0;
   padding: 0;
   z-index: 1;
