@@ -1,0 +1,10 @@
+div {
+  display: flex;
+  overflow-x: auto;
+}
+img {
+  margin: 8px;
+}
+div:hover {
+  cursor: all-scroll;
+}
