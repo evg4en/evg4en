@@ -30,8 +30,10 @@
 .dropdown:hover .menu-list {
   display: block;
   opacity: 1;
-  background-color: ghostwhite;
 }
 .dropdown:hover {
   opacity: 1;
+}
+.menu-item:hover {
+  background-color: ghostwhite;
 }
