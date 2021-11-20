@@ -1,0 +1,16 @@
+header > * {
+  display: flex;
+  box-sizing: border-box;
+  margin: 0;
+  justify-content: center;
+}
+.article {
+  margin: 8px 8px 8px 8px;
+  padding: 16px 16px 16px 16px;
+  flex-basis: 300px;
+}
+p {
+  display: flex;
+  flex-basis: 300px;
+  flex-grow: 1;
+}
