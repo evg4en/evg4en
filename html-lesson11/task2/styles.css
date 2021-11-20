@@ -1,4 +1,7 @@
-div {
+.articles {
+  display: flex;
+}
+.articles > div {
   box-sizing: border-box;
   height: 100px;
   width: 150px;
