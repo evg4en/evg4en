@@ -1,4 +1,4 @@
-body {
+html {
   box-sizing: border-box;
 }
 header {
@@ -15,6 +15,6 @@ header {
   margin: 8px 8px 8px 8px;
   padding: 16px 16px 16px 16px;
   flex-basis: 300px;
-  background-color: yellow;
+  background-color: bisque;
   flex-grow: 1;
 }
