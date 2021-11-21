@@ -4,9 +4,9 @@
 li {
   font-size: 1.5em;
 }
-/* li:last-child {
-  text-decoration: green underline;
-} */
+li:last-child {
+  text-decoration: underline green;
+}
 .second {
   text-decoration: line-through;
 }
