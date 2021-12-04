@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+.main-img {
+  display: block;
+  margin: 50px auto 0;
+  max-width: 100%;
+  border-radius: 20px;
+}
+.gallery {
+  display: flex;
+}
+figcaption {
+  line-height: 30px;
+  text-align: center;
+}
+.card {
+  margin: 16px;
+  box-shadow: 0px 7px 18px -8px rgba(0, 0, 0, 0.75);
+}
+.opacity {
+  filter: opacity(50%);
+}
+.blur {
+  filter: blur(4px);
+}
+.invert {
+  filter: invert(100%);
+}
