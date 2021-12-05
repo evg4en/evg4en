@@ -5,6 +5,7 @@
   justify-content: center;
 }
 .image-button {
+  box-sizing: border-box;
   position: absolute;
   top: calc(50% - 25px);
   left: calc(50% - 100px);
