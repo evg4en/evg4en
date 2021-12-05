@@ -18,10 +18,9 @@
   filter: opacity(0.5);
   text-align: center;
   cursor: pointer;
-}
-img {
   max-width: 100%;
 }
+
 .image-button:hover {
   filter: opacity(1);
 }
