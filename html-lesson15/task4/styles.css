@@ -3,13 +3,13 @@
 
   position: relative;
   justify-content: center;
-  align-items: center;
 }
 .image-button {
   position: absolute;
   top: calc(50% - 25px);
   left: calc(50% - 100px);
   width: 200px;
+
   line-height: 50px;
   background-color: bisque;
   font-size: 12px;
