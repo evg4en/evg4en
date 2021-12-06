@@ -3,6 +3,7 @@
 
   position: relative;
   justify-content: center;
+  /* align-items: center; */
 }
 .image-button {
   box-sizing: border-box;
