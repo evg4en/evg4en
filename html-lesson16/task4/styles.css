@@ -27,7 +27,7 @@
   border-radius: 4px;
   border: 1px solid #808080;
   padding: 4px;
-  outline: non;
+  outline: none;
 }
 .form-label {
   position: relative;
