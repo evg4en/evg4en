@@ -3,6 +3,7 @@
   font-family: monospace;
 }
 .page {
+  display: flex;
   background-color: bisque;
   align-items: center;
   justify-content: center;
