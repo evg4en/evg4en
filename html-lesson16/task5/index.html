@@ -14,7 +14,7 @@
   <body>
     <form class="form-inputs">
       <div class="input">
-        <input type="text" value="HTML" disabled />
+        <input type="text" name="primaryLanguage" value="HTML" disabled />
       </div>
       <div class="input">
         <input type="checkbox" name="agree" unchecked />
@@ -31,12 +31,17 @@
       <div class="input">
         <input
           type="datetime-local"
-          name="birthDate"
+          name="birthTime"
           value="2024-10-04T13:02"
         />
       </div>
       <div class="input">
-        <input type="email" placeholder="example@domain.com" required />
+        <input
+          type="email"
+          name="email"
+          placeholder="example@domain.com"
+          required
+        />
       </div>
 
       <div class="input">
@@ -70,6 +75,18 @@
         <input type="radio" value="javascript" name="javascript" />
         <label for="html">JavaScript</label>
       </div>
+
+      <div class="input">
+        <input type="range" name="learningProgress" value="30" />
+      </div>
+      <div class="input">
+        <select name="framework">
+          <option value="react">React</option>
+          <option value="jquery" selected>jQuery</option>
+          <option value="bootstrap">Bootstrap</option>
+        </select>
+      </div>
+
       <div class="input">
         <input
           type="search"
