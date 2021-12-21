@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <form class="form-inputs">
+      <div>
+        <input type="text" value="HTML" disabled />
+      </div>
+      <div>
+        <input type="checkbox" name="agree" unchecked />
+      </div>
+      <div>
+        <input type="checkbox" name="like" readonly />
+      </div>
+      <div>
+        <input type="color" name="favouriteColor" value="#ff7f50" />
+      </div>
+      <div>
+        <input type="date" name="birthDate" value="2021-01-02" />
+      </div>
+      <div>
+        <input
+          type="datetime-local"
+          name="birthDate"
+          value="2024-10-04T13:02"
+        />
+      </div>
+      <div>
+        <input type="email" placeholder="example@domain.com" required />
+      </div>
+
+      <div>
+        <input type="file" name="avatar" />
+      </div>
+      <div>
+        <input type="month" name="startLearning" value="2020-01" />
+      </div>
+      <div>
+        <input type="number" name="favouriteNumber" value="17" />
+      </div>
+      <textarea
+        name="story"
+        cols="30"
+        rows="5"
+        placeholder="A long time ago..."
+      ></textarea>
+
+      <div>
+        <input type="password" value="secret" name="password" />
+      </div>
+      <div class="languages">
+        <input type="radio" name="html" value="html" />
+        <label for="html">HTML</label>
+
+        <input type="radio" value="css" name="css" checked />
+        <label for="css">CSS</label>
+
+        <input type="radio" value="javascript" name="javascript" />
+        <label for="html">JavaScript</label>
+      </div>
+      <div>
+        <input
+          type="search"
+          name="search"
+          placeholder="Type first letters..."
+        />
+      </div>
+      <div>
+        <input type="time" name="lunchEnd" value="14:01" />
+      </div>
+      <div>
+        <input type="url" name="website" placeholder="https://website.com" />
+      </div>
+      <div>
+        <input type="week" name="birthWeek" value="2021-W51" />
+      </div>
+      <div>
+        <input type="submit" value="Save" />
+      </div>
+    </form>
+  </body>
+</html>
