@@ -1,9 +1,16 @@
 .form-inputs {
   margin: 32px;
+  box-sizing: border-box;
 }
-input {
+.input {
   margin: 8px;
+  box-sizing: border-box;
 }
 textarea {
+  box-sizing: border-box;
+  margin: 8px;
+}
+
+.languages {
   margin: 8px;
 }

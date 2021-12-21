@@ -13,49 +13,51 @@
   </head>
   <body>
     <form class="form-inputs">
-      <div>
+      <div class="input">
         <input type="text" value="HTML" disabled />
       </div>
-      <div>
+      <div class="input">
         <input type="checkbox" name="agree" unchecked />
       </div>
-      <div>
-        <input type="checkbox" name="like" readonly />
+      <div class="input">
+        <input type="checkbox" name="like" readonly checked />
       </div>
-      <div>
+      <div class="input">
         <input type="color" name="favouriteColor" value="#ff7f50" />
       </div>
-      <div>
+      <div class="input">
         <input type="date" name="birthDate" value="2021-01-02" />
       </div>
-      <div>
+      <div class="input">
         <input
           type="datetime-local"
           name="birthDate"
           value="2024-10-04T13:02"
         />
       </div>
-      <div>
+      <div class="input">
         <input type="email" placeholder="example@domain.com" required />
       </div>
 
-      <div>
+      <div class="input">
         <input type="file" name="avatar" />
       </div>
-      <div>
+      <div class="input">
         <input type="month" name="startLearning" value="2020-01" />
       </div>
-      <div>
+      <div class="input">
         <input type="number" name="favouriteNumber" value="17" />
       </div>
-      <textarea
-        name="story"
-        cols="30"
-        rows="5"
-        placeholder="A long time ago..."
-      ></textarea>
-
       <div>
+        <textarea
+          name="story"
+          cols="30"
+          rows="5"
+          placeholder="A long time ago..."
+        ></textarea>
+      </div>
+
+      <div class="input">
         <input type="password" value="secret" name="password" />
       </div>
       <div class="languages">
@@ -68,23 +70,23 @@
         <input type="radio" value="javascript" name="javascript" />
         <label for="html">JavaScript</label>
       </div>
-      <div>
+      <div class="input">
         <input
           type="search"
           name="search"
           placeholder="Type first letters..."
         />
       </div>
-      <div>
+      <div class="input">
         <input type="time" name="lunchEnd" value="14:01" />
       </div>
-      <div>
+      <div class="input">
         <input type="url" name="website" placeholder="https://website.com" />
       </div>
-      <div>
+      <div class="input">
         <input type="week" name="birthWeek" value="2021-W51" />
       </div>
-      <div>
+      <div class="input">
         <input type="submit" value="Save" />
       </div>
     </form>
