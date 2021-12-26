@@ -8,6 +8,7 @@ td {
   height: 50px;
   width: 50px;
   border: 1px solid black;
+  box-sizing: border-box;
 }
 .evenclastesrs > td:nth-child(even) {
   background-color: black;
@@ -15,12 +16,11 @@ td {
 .oddclastesrs > td:nth-child(odd) {
   background-color: black;
 }
-td:nth-child(1) {
-  border: none;
-}
 
 th {
   height: 50px;
   width: 50px;
   text-transform: capitalize;
+  box-sizing: border-box;
+  font-weight: normal;
 }
