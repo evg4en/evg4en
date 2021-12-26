@@ -9,16 +9,14 @@ td,
 th {
   padding: 4px;
   line-height: 40px;
+  box-sizing: border-box;
+  text-align: right;
 }
 table {
   margin: 16px;
   box-sizing: border-box;
 }
-th,
-td {
-  padding: 4px;
-  text-align: right;
-}
+
 table {
   width: 500px;
 }
