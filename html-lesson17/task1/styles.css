@@ -1,0 +1,25 @@
+table,
+td,
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  /* border-spacing: 10px; */
+}
+td,
+th {
+  padding: 4px;
+}
+table {
+  margin: 32px;
+}
+th,
+td {
+  padding: 4px;
+  text-align: right;
+}
+table {
+  width: 500px;
+}
+div {
+  overflow-x: auto;
+}
