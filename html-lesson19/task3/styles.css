@@ -1,0 +1,45 @@
+@keyframes moving {
+  from {
+    left: 0;
+    opacity: 1;
+  }
+  to {
+    left: 70px;
+  }
+}
+@keyframes blinking {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vh;
+  height: 100vh;
+}
+.spinner {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 16px;
+  text-transform: uppercase;
+  animation: blinking 2s;
+  animation-iteration-count: infinite;
+  transition-timing-function: linear;
+}
+.rect {
+  position: relative;
+  height: 4px;
+  width: 10px;
+  background-color: black;
+  border-radius: 2px;
+  animation: moving 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
