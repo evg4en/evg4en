@@ -39,7 +39,7 @@
   width: 10px;
   background-color: black;
   border-radius: 2px;
-  animation: moving 2s;
+  animation: moving 2s, blinking 2s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
 }
