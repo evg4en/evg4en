@@ -43,3 +43,6 @@
   animation-direction: alternate;
   animation-iteration-count: infinite;
 }
+* {
+  box-sizing: border-box;
+}
