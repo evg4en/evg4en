@@ -13,7 +13,7 @@
   font-family: 'Courier New', Courier, monospace;
   animation: blinking 2s;
   animation-iteration-count: infinite;
-  transition: linear;
+  transition-timing-function: linear;
   text-transform: uppercase;
   font-size: 16px;
 }
@@ -39,7 +39,7 @@
   animation: spin 2s;
   animation-iteration-count: infinite;
   margin-bottom: 8px;
-  transition: linear;
+  transition-timing-function: linear;
 }
 @keyframes spin {
   0% {
