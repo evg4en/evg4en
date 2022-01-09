@@ -10,7 +10,7 @@
   height: 100vh;
 }
 .spinner-text {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: monospace;
   animation: blinking 2s;
   animation-iteration-count: infinite;
   transition-timing-function: linear;
