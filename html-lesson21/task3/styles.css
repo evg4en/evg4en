@@ -13,3 +13,6 @@ html {
 .font-in-percents {
   font-size: 150%;
 }
+.font-in-rem {
+  font-size: 1.5rem;
+}
