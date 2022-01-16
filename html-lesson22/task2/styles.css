@@ -17,11 +17,13 @@ span {
   flex-grow: 1;
   min-height: 200px;
   display: flex;
+  flex-grow: 1;
 }
 .News {
   background-color: #0ff;
   min-height: 200px;
   display: flex;
+  flex-grow: 1;
 }
 @media screen and (min-width: 600px) {
   .product {
