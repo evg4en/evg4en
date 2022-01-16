@@ -1,0 +1,38 @@
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+}
+span {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+}
+.navigation {
+  background-color: #ff7f50;
+  flex-grow: 1;
+}
+.Product_list {
+  background-color: #006400;
+  flex-grow: 1;
+}
+.News {
+  background-color: #0ff;
+  flex-grow: 1;
+}
+@media screen and (min-width: 600px) {
+  .product {
+    display: flex;
+  }
+}
+@media screen and (min-width: 900px) {
+  .big {
+    display: flex;
+  }
+  .product {
+    flex-grow: 2;
+  }
+}
