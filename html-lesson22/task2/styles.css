@@ -8,27 +8,27 @@ span {
 }
 .navigation {
   background-color: #ff7f50;
-  flex-grow: 1;
+  flex: 1;
   min-height: 200px;
   display: flex;
 }
 .Product_list {
   background-color: #006400;
-  flex-grow: 1;
+  flex: 1;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
+  flex: 1;
 }
 .News {
   background-color: #0ff;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
+  flex: 1;
 }
 @media screen and (min-width: 600px) {
   .product {
     display: flex;
-    flex-grow: 1;
+    flex: 1;
   }
 }
 @media screen and (min-width: 900px) {
@@ -36,6 +36,6 @@ span {
     display: flex;
   }
   .product {
-    flex-grow: 2;
+    flex: 2;
   }
 }
