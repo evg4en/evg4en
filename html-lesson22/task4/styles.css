@@ -24,12 +24,11 @@ html {
 .nav-list {
   padding: 0;
   list-style-type: none;
+}
+.navigation {
   width: 20%;
   padding: 0.5em;
 }
-/* .navigation {
- 
-} */
 
 .nav-list-item {
   display: flex;
