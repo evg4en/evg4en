@@ -24,11 +24,12 @@ html {
 .nav-list {
   padding: 0;
   list-style-type: none;
-}
-.navigation {
   width: 20%;
   padding: 0.5em;
 }
+/* .navigation {
+ 
+} */
 
 .nav-list-item {
   display: flex;
@@ -45,8 +46,8 @@ html {
   text-overflow: ellipsis;
   line-height: 2em;
   width: 100%;
-
   text-decoration: none;
+
   margin: 0.5em;
 }
 @media screen and (max-width: 600px) {
