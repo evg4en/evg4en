@@ -146,7 +146,7 @@ img {
     flex: 1;
   }
   .section {
-    margin: auto;
+    /* margin: auto; */
     flex: 3;
   }
 
