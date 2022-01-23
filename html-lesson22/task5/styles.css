@@ -39,7 +39,7 @@ body {
 }
 .section {
   font-size: 1.25em;
-
+  padding: 0.5em;
   width: 60%;
 }
 .units-list {
@@ -95,7 +95,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
 }
 
 @media screen and (max-width: 600px) {
@@ -133,6 +132,13 @@ img {
 @media screen and (min-width: 1200px) {
   .navsec {
     display: flex;
+    width: 80%;
+  }
+  .navigation {
+    width: 20%;
+  }
+  .section {
+    width: 80%;
   }
 
   .news {
