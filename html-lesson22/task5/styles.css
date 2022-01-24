@@ -158,6 +158,9 @@ body {
 } */
 
 @media screen and (min-width: 600px) {
+  .info-section {
+    display: flex;
+  }
   .banner {
     display: flex;
   }
