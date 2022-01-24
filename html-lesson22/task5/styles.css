@@ -161,9 +161,6 @@ body {
   .info-section {
     display: flex;
   }
-  .banner {
-    display: flex;
-  }
 
   .section {
     width: 80vw;
