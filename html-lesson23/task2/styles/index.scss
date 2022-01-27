@@ -15,12 +15,19 @@ body {
   //   flex-direction: column;
   // }
 }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 .square {
   width: 100px;
   height: 100px;
   background-color: #ff7f50;
   margin: 8px;
+
   @include for-extra-small {
     background-color: #ff7f50;
   }
@@ -36,8 +43,6 @@ body {
 }
 .container {
   @include for_portrait {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
   }
 }

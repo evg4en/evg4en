@@ -9,6 +9,13 @@ body {
   height: 100vh;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .square {
   width: 100px;
   height: 100px;
@@ -20,7 +27,7 @@ body {
     background-color: #ff7f50;
   }
 }
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 600px) and (max-width: 899px) {
   .square {
     background-color: #8a2be2;
   }
@@ -38,9 +45,7 @@ body {
 
 @media screen and (orientation: landscape) {
   .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: row;
   }
 }
 
