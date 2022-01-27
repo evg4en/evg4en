@@ -21,6 +21,9 @@ body {
   height: 100px;
   background-color: #ff7f50;
   margin: 8px;
+  @include for-extra-small {
+    background-color: #ff7f50;
+  }
   @include for-medium {
     background-color: #8a2be2;
   }
