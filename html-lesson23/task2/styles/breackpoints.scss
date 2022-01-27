@@ -7,8 +7,9 @@ $lg: 1200px;
     @content;
   }
 }
+
 @mixin for-medium {
-  @media screen and (max-width: $md-1) {
+  @media screen and (max-width: $md) {
     @content;
   }
 }
@@ -17,11 +18,13 @@ $lg: 1200px;
     @content;
   }
 }
+
 @mixin for-large-up {
   @media screen and (min-width: $lg) {
     @content;
   }
 }
+
 @mixin for_portrait {
   @media screen and (orientation: landscape) {
     @content;
