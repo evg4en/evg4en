@@ -6,7 +6,6 @@
 .menu {
   cursor: pointer;
   display: flex;
-  margin-left: 1em;
   line-height: 3em;
   color: #fff;
   margin-top: 0;
