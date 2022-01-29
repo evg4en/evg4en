@@ -1,3 +1,4 @@
+@import 'layout.scss';
 span {
   text-transform: lowercase;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -12,30 +13,33 @@ span {
   min-height: 200px;
   display: flex;
 }
-.Product_list {
-  background-color: #006400;
-
-  min-height: 200px;
-  display: flex;
-  flex: 1;
+.content {
+  @include for-medium {
+    display: flex;
+  }
 }
+.product {
+  @include for-small {
+    display: flex;
+    flex: 1;
+  }
+
+  @include for-medium {
+    flex: 2;
+  }
+
+  &_list {
+    background-color: #006400;
+
+    min-height: 200px;
+    display: flex;
+    flex: 1;
+  }
+}
+
 .News {
   background-color: #0ff;
   min-height: 200px;
   display: flex;
   flex: 1;
-}
-@media screen and (min-width: 600px) {
-  .product {
-    display: flex;
-    flex: 1;
-  }
-}
-@media screen and (min-width: 900px) {
-  .content {
-    display: flex;
-  }
-  .product {
-    flex: 2;
-  }
 }

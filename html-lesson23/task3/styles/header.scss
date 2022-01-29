@@ -16,8 +16,11 @@
   &__item {
     padding: 0 8px 0 8px;
   }
-  &__item:hover {
+  &__item-text:hover {
     background-color: #9aca32;
+  }
+  &__item-text {
+    line-height: 3em;
   }
   &__item_active {
     // text-align: center;

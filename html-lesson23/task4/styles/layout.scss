@@ -1,0 +1,24 @@
+$sm: 600px;
+$md: 900px;
+
+@mixin for-small {
+  @media screen and (min-width: $sm) {
+    @content;
+    //   .product {
+    //     display: flex;
+    //     flex: 1;
+  }
+}
+
+@mixin for-medium {
+  @media screen and (min-width: $md) {
+    @content;
+
+    //   .content {
+    //     display: flex;
+    //   }
+    //   .product {
+    //     flex: 2;
+    //   }
+  }
+}
