@@ -4,8 +4,7 @@
   @include for-large-up {
     padding: 73px 0 72px 0;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-evenly;
   }
 
   &__details {
@@ -16,6 +15,7 @@
     @include for-large-up {
       max-width: 26px;
       margin-right: 121px;
+      flex: 1;
     }
   }
   &__title {

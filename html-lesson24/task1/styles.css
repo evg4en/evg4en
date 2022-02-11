@@ -773,8 +773,7 @@
   .order {
     padding: 73px 0 72px 0;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-evenly;
   }
 }
 .order__details {
@@ -787,6 +786,7 @@
   .order__illustration {
     max-width: 26px;
     margin-right: 121px;
+    flex: 1;
   }
 }
 .order__title {
