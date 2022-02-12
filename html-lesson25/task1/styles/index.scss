@@ -21,8 +21,10 @@ body {
     text-align: center;
     font-weight: 700;
     font-size: 35px;
-    line-height: 43px;
+    line-height: 35px;
     margin-bottom: 0;
+    margin-top: 33px;
+    padding: 0;
   }
   &__subtitle {
     font-weight: 300;
@@ -31,6 +33,7 @@ body {
     text-align: center;
     margin-top: 0;
     margin-bottom: 33px;
+    padding: 0;
   }
   &__price-basic {
     font-weight: bold;
@@ -109,7 +112,7 @@ body {
 }
 .button {
   margin: 40px 115px 40px 115px;
-  width: 150px;
+  width: 155px;
   height: 40px;
   font-size: 14px;
   line-height: 17px;
