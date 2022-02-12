@@ -1,0 +1,120 @@
+html {
+  font-family: 'Montserrat';
+}
+body {
+  background-color: #141b1c;
+}
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.price-card {
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
+  margin-right: 18px;
+  width: 380px;
+  height: 770px;
+  background-color: #334247;
+  color: white;
+  &__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 43px;
+    margin-bottom: 0;
+  }
+  &__subtitle {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 33px;
+  }
+  &__price-basic {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 105px;
+    text-align: center;
+    margin: 0;
+    background-color: #5bb189;
+    height: 105px;
+  }
+  &__price-business {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 105px;
+    text-align: center;
+    margin: 0;
+    background-color: #3a6ba5;
+    height: 105px;
+  }
+  &__price-webshop {
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 105px;
+    text-align: center;
+    margin: 0;
+    background-color: #ec632a;
+    height: 105px;
+  }
+  &__description {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    padding: 40px 26px 40px 26px;
+    margin: 0;
+  }
+  &__option-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__order-btn-basic {
+    background-color: #5bb189;
+  }
+  &__order-btn-business {
+    background-color: #3a6ba5;
+  }
+  &__order-btn-webshop {
+    background-color: #ec632a;
+  }
+}
+.accept-mark {
+  display: inline-block;
+  width: 15px;
+  height: 13px;
+  margin-right: 22px;
+  &__basic {
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_green.png');
+  }
+  &__busines {
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_blue.png');
+  }
+  &__webshop {
+    background-image: url('https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+25/verification-checkmark-symbol_orange.png');
+  }
+}
+.list-item {
+  line-height: 50px;
+  padding-left: 22px;
+  font-weight: 300;
+  font-size: 15px;
+}
+.list-item:nth-child(odd) {
+  background-color: #2a3438;
+}
+.button {
+  margin: 40px 115px 40px 115px;
+  width: 150px;
+  height: 40px;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
