@@ -1,0 +1,5 @@
+consistent-return
+one-var
+no-var
+no-undef
+eqeqeq
